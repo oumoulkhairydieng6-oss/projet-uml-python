@@ -1,0 +1,77 @@
+<mxfile version="20.1.4" type="atlas">
+  <diagram id="catalyst-diagram" name="Page-1">
+    <mxGraphModel pageHeight="402" pageWidth="1621">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="seq-title-0" value="Sujet 4 - Sequence : consultation et prescription specialiste" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1621" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-P" value="Patient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="74" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-G" value="gen : Generaliste" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="298" y="60" width="150" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-C" value="c : Consultation" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="652" y="60" width="141" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-Pr" value="pres : PrescriptionSpecialiste" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="997" y="60" width="245" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-S" value="spec : Specialiste" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="1446" y="60" width="155" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-act-1" style="html=1;fillColor=#FFFFFF;strokeColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="1113" y="293" width="14" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-act-2" style="html=1;fillColor=#FFFFFF;strokeColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="716" y="202" width="14" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-act-3" style="html=1;fillColor=#FFFFFF;strokeColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="366" y="157" width="14" height="224" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-msg-4" value="1. demander consultation (date)" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="57" y="130" as="sourcePoint" />
+            <mxPoint x="373" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-5" value="2. creer Consultation (date)" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="174" as="sourcePoint" />
+            <mxPoint x="723" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-6" value="3. examen decision" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="202" as="sourcePoint" />
+            <mxPoint x="373" y="236" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="488" y="202" />
+              <mxPoint x="488" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-7" value="4. creer prescription vers specialiste" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373" y="266" as="sourcePoint" />
+            <mxPoint x="1120" y="266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-8" value="5. specialiste cible" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="310" as="sourcePoint" />
+            <mxPoint x="1524" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-9" value="6. compte rendu" style="html=1;rounded=0;endArrow=open;endFill=0;dashed=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=0" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="723" y="354" as="sourcePoint" />
+            <mxPoint x="57" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="cas_utilisation" id="diagram-13e76fad26a8">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame-393f5b469245" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Application securite sociale" vertex="1">
+          <mxGeometry height="420" width="580" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-f8bbf8dc1f93" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Inscrire un assure" vertex="1">
+          <mxGeometry height="55" width="132" x="88" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-26f46b1d0884" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Enregistrer le medecin traitant d un assure" vertex="1">
+          <mxGeometry height="60" width="250" x="63" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-aeab1e9ba0e1" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Enregistrer une feuille de maladie" vertex="1">
+          <mxGeometry height="55" width="228" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-d74022a98eee" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Effectuer un remboursement" vertex="1">
+          <mxGeometry height="55" width="180" x="98" y="182.5" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-43694cfcc111" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Enregistrer une consultation chez le generaliste" vertex="1">
+          <mxGeometry height="60" width="250" x="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-9052d29f092f" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Prescrire une ou plusieurs consultations specialiste" vertex="1">
+          <mxGeometry height="60" width="250" x="300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-3a9abfcb5df4" parent="frame-393f5b469245" style="ellipse;whiteSpace=wrap;html=1;" value="Prescrire des medicaments" vertex="1">
+          <mxGeometry height="55" width="174" x="390" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-c7e173c4ca76" edge="1" parent="frame-393f5b469245" source="uc-9052d29f092f" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="uc-43694cfcc111" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-6ebdf8352e8e" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Organisme de securite sociale" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-60455d132be9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Patient ou assure" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-a884331e694f" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Medecin" vertex="1">
+          <mxGeometry height="60" width="30" x="700" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3ebdc0f3b804" edge="1" parent="1" source="actor-6ebdf8352e8e" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-f8bbf8dc1f93" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-28faf3e8237f" edge="1" parent="1" source="actor-6ebdf8352e8e" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-26f46b1d0884" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3fd1fe68cb07" edge="1" parent="1" source="actor-6ebdf8352e8e" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-aeab1e9ba0e1" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-ba5d3ca8476a" edge="1" parent="1" source="actor-6ebdf8352e8e" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-d74022a98eee" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-489d1dc31bc6" edge="1" parent="1" source="actor-a884331e694f" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-aeab1e9ba0e1" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-3a46c04e7901" edge="1" parent="1" source="actor-a884331e694f" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-43694cfcc111" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-e7e46febf0eb" edge="1" parent="1" source="actor-a884331e694f" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-9052d29f092f" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-cee5fcfaf04c" edge="1" parent="1" source="actor-a884331e694f" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-3a9abfcb5df4" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

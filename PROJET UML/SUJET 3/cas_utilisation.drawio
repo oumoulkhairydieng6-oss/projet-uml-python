@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="cas_utilisation" id="diagram-46630cf255c0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame-dbc7b54002dc" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Gestion des revues et des articles" vertex="1">
+          <mxGeometry height="470" width="660" x="90" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-b9c7defa1e2f" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Creer ou mettre a jour une revue" vertex="1">
+          <mxGeometry height="55" width="216" x="90" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-d2428d3d90b9" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Publier un numero (relatif et annee)" vertex="1">
+          <mxGeometry height="55" width="240" x="370" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-750ad46dbfd7" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Associer un article a un numero (parution)" vertex="1">
+          <mxGeometry height="60" width="250" x="190" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-9d4c48988029" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Employer un auteur (contrat avec la revue)" vertex="1">
+          <mxGeometry height="60" width="250" x="410" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-0e577f899117" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Consulter le nombre de numeros parus (revue et annee)" vertex="1">
+          <mxGeometry height="60" width="250" x="100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-8873ccd05132" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Lister les articles parus dans au moins deux revues" vertex="1">
+          <mxGeometry height="60" width="250" x="350" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-d95521328eaa" parent="frame-dbc7b54002dc" style="ellipse;whiteSpace=wrap;html=1;" value="Lister les auteurs d un numero (revue, annee, relatif)" vertex="1">
+          <mxGeometry height="60" width="250" x="-14" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-5d20847a405d" edge="1" parent="frame-dbc7b54002dc" source="uc-750ad46dbfd7" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="uc-d2428d3d90b9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-278f97090c11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Redacteur en chef" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-a94df287a939" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Lecteur ou service documentation" vertex="1">
+          <mxGeometry height="60" width="30" x="20" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-2ddccf4f3d7e" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Auteur" vertex="1">
+          <mxGeometry height="60" width="30" x="780" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-acd134586c40" edge="1" parent="1" source="actor-278f97090c11" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-b9c7defa1e2f" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-dbf65f95fe05" edge="1" parent="1" source="actor-278f97090c11" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-d2428d3d90b9" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-06b555fb7afd" edge="1" parent="1" source="actor-278f97090c11" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-750ad46dbfd7" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-c813adfd9c2c" edge="1" parent="1" source="actor-278f97090c11" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-9d4c48988029" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-bea6d005c08a" edge="1" parent="1" source="actor-a94df287a939" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-0e577f899117" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-253dde50517a" edge="1" parent="1" source="actor-a94df287a939" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-8873ccd05132" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-32b37f8a757e" edge="1" parent="1" source="actor-a94df287a939" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" target="uc-d95521328eaa" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

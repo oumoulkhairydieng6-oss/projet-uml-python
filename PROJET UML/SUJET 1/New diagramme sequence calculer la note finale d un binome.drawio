@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Enseignant" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="2Rfi4fAJyhYkTnHqmCQL-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="45" y="515" as="sourcePoint" />
+            <mxPoint x="690" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-3" parent="1" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;" value=":Binome" vertex="1">
+          <mxGeometry height="520" width="100" x="260" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-4" parent="2Rfi4fAJyhYkTnHqmCQL-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="380" width="20" x="40" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":nsA NoteSoutenance" vertex="1">
+          <mxGeometry height="525" width="130" x="460" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-6" parent="2Rfi4fAJyhYkTnHqmCQL-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="20" x="55" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value=":nsB NoteSoutenance" vertex="1">
+          <mxGeometry height="520" width="140" x="660" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-8" parent="2Rfi4fAJyhYkTnHqmCQL-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="20" x="60" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" target="2Rfi4fAJyhYkTnHqmCQL-4" value="1. calculer_note_finale(penalite_par_jour)">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="50" y="125" as="sourcePoint" />
+            <mxPoint x="210" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-10" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="2. lire _note_rapport">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="185" />
+            </Array>
+            <mxPoint x="320" y="155" as="sourcePoint" />
+            <mxPoint x="325" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="2Rfi4fAJyhYkTnHqmCQL-6" value="3. obtenir valeur (etudiant A)">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="320" y="235" as="sourcePoint" />
+            <mxPoint x="470" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;dashed=1;dashPattern=1 4;" value="4. note_soutenance_A">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="512" y="295" as="sourcePoint" />
+            <mxPoint x="320" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" value="5. obtenir valeur (etudiant B)">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="320" y="325" as="sourcePoint" />
+            <mxPoint x="720" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;dashed=1;dashPattern=1 4;" target="2Rfi4fAJyhYkTnHqmCQL-4" value="6. note_soutenance_B">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="722" y="385" as="sourcePoint" />
+            <mxPoint x="530" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-15" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="7. agreger notes et appliquer points_retard">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="465" />
+            </Array>
+            <mxPoint x="320" y="435" as="sourcePoint" />
+            <mxPoint x="325" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Rfi4fAJyhYkTnHqmCQL-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;dashed=1;dashPattern=1 4;" value="8. note_finale (non persistee)">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="302" y="503" as="sourcePoint" />
+            <mxPoint x="50" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

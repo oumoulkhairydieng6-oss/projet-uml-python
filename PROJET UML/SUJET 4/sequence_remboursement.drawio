@@ -1,0 +1,64 @@
+<mxfile version="20.1.4" type="atlas">
+  <diagram id="catalyst-diagram" name="Page-1">
+    <mxGraphModel pageHeight="355" pageWidth="1312">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="seq-title-0" value="Sujet 4 - Sequence : feuille de maladie et remboursement" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#333333" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1312" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-A" value="Agent SS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="92" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-O" value="org : OrganismeSS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="165" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-F" value="fm : FeuilleMaladie" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="733" y="60" width="164" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="ll-R" value="r : Remboursement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;fillColor=#FFFFFF;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=top" vertex="1" parent="1">
+          <mxGeometry x="1125" y="60" width="167" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-act-1" style="html=1;fillColor=#FFFFFF;strokeColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="808" y="202" width="14" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-act-2" style="html=1;fillColor=#FFFFFF;strokeColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="1202" y="290" width="14" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-act-3" style="html=1;fillColor=#FFFFFF;strokeColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="416" y="157" width="14" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="seq-msg-4" value="1. traiter_feuille_maladie (fm)" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="66" y="130" as="sourcePoint" />
+            <mxPoint x="423" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-5" value="2. valider pieces et droits" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="174" as="sourcePoint" />
+            <mxPoint x="815" y="174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-6" value="3. montants eligibles" style="html=1;rounded=0;endArrow=open;endFill=0;dashed=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=0" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="219" as="sourcePoint" />
+            <mxPoint x="423" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-7" value="4. creer Remboursement (montant, date)" style="html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="263" as="sourcePoint" />
+            <mxPoint x="1209" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="seq-msg-8" value="5. accuse de traitement" style="html=1;rounded=0;endArrow=open;endFill=0;dashed=1;startArrow=none;endSize=14;startSize=14;strokeColor=#828282;fontColor=#404040;verticalAlign=bottom;endFill=0" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1209" y="307" as="sourcePoint" />
+            <mxPoint x="66" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

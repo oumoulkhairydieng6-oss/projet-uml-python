@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="cas_utilisation" id="diagram-6437d91e09e9">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="frame-8811a89c1bb6" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Gestion des masters" vertex="1">
+          <mxGeometry x="90" y="40" width="580" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-40fa43feabe9" parent="frame-8811a89c1bb6" style="ellipse;whiteSpace=wrap;html=1;" value="Creer ou modifier un master" vertex="1">
+          <mxGeometry x="20" y="60" width="186" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-85415d27a391" parent="frame-8811a89c1bb6" style="ellipse;whiteSpace=wrap;html=1;" value="Affecter un directeur de master (enseignant)" vertex="1">
+          <mxGeometry x="290" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-02284278ba1a" parent="frame-8811a89c1bb6" style="ellipse;whiteSpace=wrap;html=1;" value="Referencer un cours" vertex="1">
+          <mxGeometry x="20" y="140" width="138" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-9889135cfbf8" parent="frame-8811a89c1bb6" style="ellipse;whiteSpace=wrap;html=1;" value="Rattacher un cours a un master (obligatoire ou optionnel)" vertex="1">
+          <mxGeometry x="290" y="140" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-beb736412a42" parent="frame-8811a89c1bb6" style="ellipse;whiteSpace=wrap;html=1;" value="Enregistrer un laboratoire (dirige par un professeur)" vertex="1">
+          <mxGeometry x="20" y="220" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uc-4ae8bb64a57e" parent="frame-8811a89c1bb6" style="ellipse;whiteSpace=wrap;html=1;" value="Consulter l offre de cours par master" vertex="1">
+          <mxGeometry x="290" y="220" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-ad34a6742fe0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Scolarite ou administration" vertex="1">
+          <mxGeometry x="20" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-16582c0f70fc" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Directeur de master" vertex="1">
+          <mxGeometry x="700" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-5598298dc89b" edge="1" parent="1" source="actor-ad34a6742fe0" target="uc-40fa43feabe9" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-d8d0061b08b5" edge="1" parent="1" source="actor-ad34a6742fe0" target="uc-85415d27a391" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-72cf76c56d02" edge="1" parent="1" source="actor-ad34a6742fe0" target="uc-02284278ba1a" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-63d40fe32bdf" edge="1" parent="1" source="actor-ad34a6742fe0" target="uc-9889135cfbf8" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0dc361d6b61f" edge="1" parent="1" source="actor-ad34a6742fe0" target="uc-beb736412a42" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-d68ffe7f21b8" edge="1" parent="1" source="actor-16582c0f70fc" target="uc-4ae8bb64a57e" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;rounded=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-ae14e0c276a8" edge="1" parent="frame-8811a89c1bb6" source="uc-9889135cfbf8" target="uc-02284278ba1a" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
